@@ -89,7 +89,7 @@ public class BongoClass {
         driver.findElement(By.id("bongo_otp_btn")).click();
         System.out.println("Textbox Appeared to type the sent OTP in the given number");
         
-        //Resend OTP Button check
+        //Re-send OTP Button check
         System.out.println("Clicked on Resend OTP Button");
         WebDriverWait wait2 = new WebDriverWait(driver, 20);
         WebElement resendOtp = wait2.until(ExpectedConditions.elementToBeClickable(By.className("bongo-resend-otp")));
